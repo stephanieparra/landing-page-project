@@ -6,45 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>An ✨Aesthetic✨ Guide to Pan Dulce Mexicano</title>
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
   </head>
   <body>
-    <h1>An ✨Aesthetic✨ Guide to Pan Dulce Mexicano</h1>
-    <h2><em>with menially-researched beverage pairings</em></h2>
-    <div class="container">
-      <ul>
-        <li>
-          <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/032/original/IMG_0180.jpg?1633054002"
-            alt="pink conchas"
-            width="200"
-          />
-          <p>
-            <strong>Conchas</strong><br />
-            What can I say about conchas? They're classic. As a kid I used to
-            take the colorful part off the top and leave the bread. I was really
-            spoiled so my parents never reprimanded me lol. My fave is
-            vanilla!<br />
-            <br />
-            <strong>Pair with:</strong> Café con leche y azúcar. My dad's coffee
-            always had sugar and milk. He'd always give me a bite of his concha
-            and a sip of coffee to wash down my six-year-old gullet. Great
-            memories. 💕
-          </p>
-        </li>
-        <li>
-          <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/039/original/IMG_3108.jpg?1633056144"
-            alt="a row of ninos envueltos aka mexican jelly rolls"
-            width="200"
-          />
-          <p>
-            <strong>Niño Envuelto aka Mexican Jelly Roll</strong>
-            <br />
-            So, the literal translation of this pan dulce is "enveloped child"
-            and if you don't giggle a little bit when you say "I'm about to eat
-            an enveloped child for dessert" then you're missing out on the joy
-            of pan dulce dad jokes. We're just a bunch of silly geese over here.
-            🤓 <br /><br />
+    <div id="canvas-container">
+      <h1>An ✨Aesthetic✨ Guide to Pan Dulce Mexicano</h1>
+      <h2><em>with menially-researched beverage pairings</em></h2>
+      <div class="container">
+        <ul>
+          <li>
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/032/original/IMG_0180.jpg?1633054002"
+              alt="pink conchas"
+              width="200"
+            />
+            <p>
+              <strong>Conchas</strong><br />
+              What can I say about conchas? They're classic. As a kid I used to
+              take the colorful part off the top and leave the bread. I was really
+              spoiled so my parents never reprimanded me lol. My fave is
+              vanilla!<br />
+              <br />
+              <strong>Pair with:</strong> Café con leche y azúcar. My dad's coffee
+              always had sugar and milk. He'd always give me a bite of his concha
+              and a sip of coffee to wash down my six-year-old gullet. Great
+              memories. 💕
+            </p>
+          </li>
+          <li>
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/039/original/IMG_3108.jpg?1633056144"
+              alt="a row of ninos envueltos aka mexican jelly rolls"
+              width="200"
+            />
+            <p>
+              <strong>Niño Envuelto aka Mexican Jelly Roll</strong>
+              <br />
+              So, the literal translation of this pan dulce is "enveloped child"
+              and if you don't giggle a little bit when you say "I'm about to eat
+              an enveloped child for dessert" then you're missing out on the joy
+              of pan dulce dad jokes. We're just a bunch of silly geese over here.
+              🤓 <br /><br />
             <strong>Pair with:</strong> Black coffee or espresso. These are
             really sweet. I mean, it's a full-on cake that people be eating for
             breakfast. Por eso estamos como estamos lol.
@@ -178,5 +181,6 @@
       >
     </p>
     <script src="/src/app.js"></script>
+    <script src="src/sketch.js"></script>
   </body>
 </html>
