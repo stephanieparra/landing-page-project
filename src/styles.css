@@ -115,11 +115,17 @@ span {
 }
 
 #canvas-container {
-  width: 100vw; /* 100% of the viewport width */
-  height: 100vh; /* 100% of the viewport height */
-  overflow: auto; /* Adds scrollbar if necessary */
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
 }
 
 canvas {
-  display: block; /* Ensures canvas fills its container */
+  display: block;
+}
+
+#mouse-follower {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
 }
